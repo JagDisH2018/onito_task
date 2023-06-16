@@ -1,0 +1,22 @@
+{
+  "name": "task_onito",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://jagdish2018.github.io/task_onito",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build":"react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
